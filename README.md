@@ -2,10 +2,10 @@
 
 This project focuses on feature extraction and classification using different combinations of models and algorithms. Each script in the repository is designed to preprocess data, apply normalization, and conduct clustering or classification:
 
-1. **Clip+Guassian.py**: Utilizes the CLIP model for feature extraction. After feature extraction, it standardizes the features to fit a Gaussian distribution (z-score normalization) and classifies the data using the Naive Bayes algorithm.
-2. **Clip+Kmeans.py**: Employs the CLIP model for feature extraction, followed by clustering using K-means.
-3. **dino+Guassian.py**: Uses the DINO model for feature extraction, normalizes the features to a Gaussian distribution, and classifies using the Naive Bayes algorithm.
-4. **dino+k-means.py**: Applies the DINO model for feature extraction and performs clustering using K-means.
+**Clip+Guassian.py**: Feature extraction using Clip model. After feature extraction, Gaussian model was used to classify the data.
+2. **Clip+Kmeans.py**: Clip model is used for feature extraction, and then K-means is used to classify the data.
+3. **dino+Guassian.py**: dino model was used for feature extraction and Gaussian model for classification.
+4. **dino+ K-means. py**: dino model was used for feature extraction and K-means for classification.
 
 ## Requirements
 
@@ -16,7 +16,7 @@ To run the scripts, ensure your environment is set up with the following:
 - numpy 1.26.2
 - seaborn 0.13.2
 
-**Note:** The sklearn package was upgraded during the project. Accuracy, F1-Score, and Sensitivity were computed using sklearn version 1.3.2, while Specificity was calculated using sklearn version 1.1.3.
+**Note:** The sklearn package was upgraded during the project. Accuracy, F1-Score, and Sensitivity were computed using sklearn version 1.3.2, while dino with k-means Specificity was calculated using sklearn version 1.1.3.
 
 ## Setup and Execution
 
