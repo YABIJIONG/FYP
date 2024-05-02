@@ -25,6 +25,7 @@ Update the paths in the scripts to your local data directories before running th
 ```python
 training_data = pd.read_csv(r'YOUR_LOCAL_PATH\clip_testing_features.csv')
 training_label = pd.read_csv(r'YOUR_LOCAL_PATH\b. IDRiD_Disease Grading_Testing Labels.csv')
+```python
 Replace YOUR_LOCAL_PATH with the actual directory where your data files are stored.
 
 ## Running the Scripts
