@@ -78,4 +78,8 @@ CLIP with K-means
   13 11 3 4 1 
   1 3 5 7 3
   0 4 4 2 3]]
-  
+DNO PCA
+![DINO PCA](https://github.com/YABIJIONG/FYP/assets/168736842/755633e8-6a5d-491b-a7ca-5416f37bd760)
+
+CLIP PCA
+![CLIP PCA](https://github.com/YABIJIONG/FYP/assets/168736842/d239b82a-046e-4466-9766-905bf0b8517f)
