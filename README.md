@@ -18,6 +18,7 @@ To run the scripts, ensure your environment is set up with the following:
 - matplotlib 3.8.3
 - numpy 1.26.2
 - seaborn 0.13.2
+- pandas 2.1.4
 
 **Note:** The sklearn package was upgraded during the project. Accuracy, F1-Score, and Sensitivity were computed using sklearn version 1.3.2, while dino with k-means Specificity was calculated using sklearn version 1.1.3.
 
