@@ -46,38 +46,61 @@ Make sure you activate the correct Python environment where all dependencies hav
 Contributions are welcome. You can contribute by submitting pull requests with bug fixes, enhancements, or new features.
 
 ## Results
-Table 1: The results of the analysis of multivariate classification feature data sets
-using k-means model. Accuracy Sensitivity Specificity F1-score
-            DINOv2     0.3      0.244       0.790      0.272
-             CLIP     0.233     0.178        0.81      0.154
-Table 2: The results of the analysis of multivariate classification feature data sets
-using Gaussian model. Accuracy Sensitivity Specificity F1-score
-                DINOv2 0.835     0.895       0.954      0.858
-                CLIP   0.767     0.779       0.934      0.782
-Confusion matrix:
-CLIP with Gaussian
-[[32 0 2 0 0
-   0 5 0 0 0
-  10 1 20 1 0
-  4 0 0 15 0
-  3 0 0 3 7]]
-CLIP with K-means
-[[16 11 1 0 6
-  2 1 0 0 2
-  8 10 7 0 7
-  8 5 6 0 0
-  4 2 6 1 0]]
-DINOv2 with Gaussian
-[[32 0 1 0 0
-  0 5 0 0 0
-  8 0 22 1 1
-  1 0 1 1 11]]
-CLIP with K-means
-[[18 1 15 0 0
-   3 0 2 0 0 
-  13 11 3 4 1 
-  1 3 5 7 3
-  0 4 4 2 3]]
+### Table 1: Results of Multivariate Classification Feature Data Sets Using k-means Model
+
+| Model  | Accuracy | Sensitivity | Specificity | F1-score |
+|--------|----------|-------------|-------------|----------|
+| DINOv2 | 0.3      | 0.244       | 0.790       | 0.272    |
+| CLIP   | 0.233    | 0.178       | 0.81        | 0.154    |
+
+### Table 2: Results of Multivariate Classification Feature Data Sets Using Gaussian Model
+
+| Model  | Accuracy | Sensitivity | Specificity | F1-score |
+|--------|----------|-------------|-------------|----------|
+| DINOv2 | 0.835    | 0.895       | 0.954       | 0.858    |
+| CLIP   | 0.767    | 0.779       | 0.934       | 0.782    |
+
+### Confusion Matrix: Gaussian and k-means Model for CLIP and DINOv2
+
+#### CLIP with Gaussian Model
+
+|     | C1  | C2 | C3 | C4 | C5 |
+|-----|-----|----|----|----|----|
+| C1  | 32  |  0 |  2 |  0 |  0 |
+| C2  |  0  |  5 |  0 |  0 |  0 |
+| C3  | 10  |  1 | 20 |  1 |  0 |
+| C4  |  4  |  0 |  0 | 15 |  0 |
+| C5  |  3  |  0 |  0 |  3 |  7 |
+
+#### CLIP with k-means Model
+
+|     | C1  | C2 | C3 | C4 | C5 |
+|-----|-----|----|----|----|----|
+| C1  | 16  | 11 |  1 |  0 |  6 |
+| C2  |  2  |  1 |  0 |  0 |  2 |
+| C3  |  8  | 10 |  7 |  0 |  7 |
+| C4  |  8  |  5 |  6 |  0 |  0 |
+| C5  |  4  |  2 |  6 |  1 |  0 |
+
+#### DINOv2 with Gaussian Model
+
+|     | C1  | C2 | C3 | C4 | C5 |
+|-----|-----|----|----|----|----|
+| C1  | 33  |  0 |  1 |  0 |  0 |
+| C2  |  0  |  5 |  0 |  0 |  0 |
+| C3  |  8  |  0 | 22 |  1 |  1 |
+| C4  |  1  |  0 |  1 |  1 | 11 |
+
+#### DINOv2 with k-means Model
+
+|     | C1  | C2 | C3 | C4 | C5 |
+|-----|-----|----|----|----|----|
+| C1  | 18  |  1 | 15 |  0 |  0 |
+| C2  |  3  |  0 |  2 |  0 |  0 |
+| C3  | 13  | 11 |  3 |  4 |  1 |
+| C4  |  1  |  3 |  5 |  7 |  3 |
+| C5  |  0  |  4 |  4 |  2 |  3 |
+
 DNO PCA
 ![DINO PCA](https://github.com/YABIJIONG/FYP/assets/168736842/755633e8-6a5d-491b-a7ca-5416f37bd760)
 
